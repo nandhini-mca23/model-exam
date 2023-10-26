@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: url('./images/starbucks-wallpaper-preview.jpg') no-repeat;
+    /* width: 100px; */
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:#006600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+h1{
+    text-align: center;
+    padding-left: 50px;
+
+
+}
+
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.about {
+    background: rgb(224, 251, 222);
+    background: linear-gradient(360deg, rgb(228, 246, 228) 0%, rgb(109, 251, 90) 100%);
+    padding: 30px 0 20px 0;
+    text-align: center;
+}
+ 
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+ 
+.about p {
+    font-size: 3rem;
+    color: #323030;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about-info {
+    margin: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+ 
+.about-img {
+    width: 100rem;
+    height: 20rem;
+   
+ 
+}
+ 
+.about-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 50px;
+    object-fit: contain;
+}
+ 
+.about-info p {
+    font-size: 1.5rem;
+    margin: 0 2rem;
+    text-align: justify;
+}
+ 
+button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    margin: 2rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #45833f;
+    text-align: center;
+    cursor: pointer;
+    width: 15rem;
+    border-radius: 4px;
+}
+ 
+button:hover {
+    background-color: #1f9405;
+}
+ 
+.gallery {
+    background: rgb(224, 251, 222);
+    background: linear-gradient(360deg, rgb(228, 246, 228) 0%, rgb(56, 115, 48) 100%);
+    padding: 30px 0 20px 0;
+    text-align: center;
+}
+.gallery img{
+    width: 400px;
+    height: 450px;
+}
+.services{
+    background: rgb(224, 251, 222);
+    background: linear-gradient(360deg, rgb(228, 246, 228) 0%, rgb(109, 251, 90) 100%);
+        padding: 30px 0 20px 0;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 200px;   
+
+
+
+}
+.services img{
+    justify-content: space-between ;
+    padding: 30px;
+   
+}
+ btn-info{
+    margin-left: 200px;
+}
+
